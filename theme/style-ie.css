@@ -1,0 +1,154 @@
+/*
+Theme Name: NumClique
+Theme URI: http://www.numclique.net
+Description: Estilo não responsive do layout 6.0 do NumClique
+Version: 6.0
+Author: Joares Miranda
+*/
+
+* { margin:0; padding:0; }
+body { background-color:#F4F4F4; font:14px Arial, Helvetica, sans-serif; }
+a img { border:none; }
+.btn { text-decoration:none; }
+
+.dataComentario { font-family: 'Julius Sans One', sans-serif; font-size:12px; font-weight:normal; }
+.tituloBoxPost h2,
+#Comente p span,
+#BtComentar { font-family: 'Julius Sans One', sans-serif; font-size:18px; font-weight:normal; }
+#Tags div,
+#Links h3,
+.infoComentarista h4 { font-family: 'Julius Sans One', sans-serif; font-size:20px; font-weight:normal; }
+#Menu li { font-family: 'Julius Sans One', sans-serif; font-size:25px; font-weight:normal; }
+#TopPost h1 { font-family: 'Julius Sans One', sans-serif; font-size:35px; font-weight:normal; }
+#Paginacao li,
+#tituloPagina,
+.tituloPagina { font-family: 'Julius Sans One', sans-serif; font-size:40px; font-weight:normal; }
+
+#Header { background:url(imagens/bgHeader.gif) repeat-x top left; margin:20px 0 10px 0; height:200px; position:relative; }
+#Header h1 { text-indent:-5000px; overflow:hidden; background:url(imagens/logo-numclique.png) no-repeat top left; width:388px; height:137px; margin:0 auto; position:relative; top:40px; }
+#Header h1 a { width:388px; height:137px; display:block; }
+
+#Menu { background-color:#E5E5E5; margin:20px 0; clear:both; }
+#Menu ul { text-align:center; width:820px; margin:0 auto; padding:10px 0; }
+#Menu li { list-style:none; margin:5px 30px; display:inline; }
+#Menu li a { text-decoration:none; color:#333; }
+
+#Content { width:820px; margin:10px auto; }
+
+#Post { width:800px; margin:0 auto; background-color:#FFF; padding-bottom:20px; margin-bottom:10px; }
+#TopPost { width:670px; margin:10px auto; text-align:center; line-height:50px; padding-top:50px; }
+#TopPost h1 a { text-decoration:none; color:#333; }
+.metaPost { font:12px Arial, Helvetica, sans-serif; border:solid #F4F4F4; border-width:1px 0; color:#999; padding:10px 0; margin:10px 0; }
+#TxtPost { width:670px; margin:10px auto; }
+#TxtPost p { line-height:22px; margin-bottom:15px; }
+#TxtPost a { text-decoration:none; font-weight:bold; color:#F90; }
+#TxtPost p.fonte { text-align:center; font:italic 14px Arial, Helvetica, sans-serif; color:#999; }
+#TxtPost small a,
+#TxtPost p.fonte a { color:#F90; text-decoration:none; font-weight:normal; }
+/* alinhamentos */
+#TxtPost img.esquerda,
+#TxtPost img.imgalignleft,
+#TxtPost img.alignleft,
+#TxtPost div.alignleft { margin:0px 15px 10px 0px; float:left; }
+#TxtPost img.direita,
+#TxtPost img.imgalignright,
+#TxtPost img.alignright,
+#TxtPost div.alignright { margin:0px 0px 10px 15px; float:right; }
+#TxtPost img.aligncenter,
+#TxtPost div.aligncenter { margin:0px auto 15px auto; clear:both; text-align:center; }
+#TxtPost .paginador { clear:both; text-align:center; position:relative; top:20px; }
+.aligncenter,
+p object,
+.flashvideo embed { display:block; margin:5px auto; }
+.alignright { margin:0px 0px 5px 10px; float:right; }
+.alignleft { margin:0px 10px 5px 0px; float:left; }
+#TxtPost ol,
+#TxtPost ul { margin-left:25px; }
+#TxtPost li { margin-bottom:5px; }
+
+#FooterPost { width:670px; border:solid #F4F4F4; border-width:1px 0; padding:10px 0; margin:10px auto; text-align:center; }
+
+#RedesSociais { clear:both; }
+.botoesSocial a { margin:10px; float:left; }
+
+#Posts { width:820px; clear:both; float:left; }
+.boxPost { margin:10px; width:390px; height:400px; position:relative; background-color:#FFF; float:left; text-align:center; }
+.tituloBoxPost h2 { width:370px; margin:10px auto; line-height:25px; }
+.tituloBoxPost h2 a { color:#333; text-decoration:none; }
+.footerBoxPost { width:370px; margin:0 auto; position:absolute; left:10px; bottom:10px; padding-top:10px; border-top:1px solid #F4F4F4; }
+
+#Paginacao { clear:both; width:800px; float:left; margin:10px; text-align:right; }
+#Paginacao li { list-style:none; display:inline; margin:0 10px 0 20px; color:#F90; }
+#Paginacao li a { text-decoration:none; color:#333; }
+
+#Links { width:820px; clear:both; }
+#Links h3 { width:180px; background-color:#E5E5E5; padding:10px 0 10px 10px; }
+#Parceiros { width:440px; float:left; margin:10px; }
+
+#SquareBanner { width:320px; margin:10px; float:left; }
+#SquareBanner div { background-color:#FFF; padding:10px; float:left; }
+#Parceiros div  { width:440px; background-color:#FFF; padding:10px 10px 0 10px; float:left; }
+#Parceiros li { list-style:none; } 
+#thumbBlogs { width:220px; float:left; margin-right:10px; }
+#thumbBlogs li { margin-bottom:10px; }
+#linksBlogs { width:190px; float:right; }
+#linksBlogs li { padding-bottom:10px; margin-bottom:10px; border-bottom:1px solid #F4F4F4; }
+#linksBlogs a { text-decoration:none; color:#333; }
+
+#Tags { width:820px; clear:both; margin:10px 0; }
+#Tags h3 { display:none; }
+#Tags div { text-align:center; }
+#Tags a { margin:10px; color:#999; text-decoration:none; }
+#Tags a:hover { color:#333; }
+
+#Footer { background:url(imagens/bgFooter.gif) repeat-x top left; height:100px; position:relative; margin-bottom:10px; }
+#ContentFooter { width:800px; margin:0 auto; position:relative; }
+#Footer h5 { text-indent:-5000px; overflow:hidden; background:url(imagens/logo-numclique-footer.png) no-repeat top left; width:197px; height:67px; position:relative; top:15px; }
+
+#Busca { width:305px; position:absolute; top:20px; right:0; }
+#Busca fieldset { border:none; }
+#Busca legend,
+#Busca label { display:none; }
+#Busca form { background:url(imagens/bg-busca.gif) no-repeat top left; width:302px; height:37px; margin-bottom:8px; }
+#Busca #s { width:245px; height:28px; padding:2px 5px; position:relative; top:2px; left:2px; border:none; }
+#Buscar { border:none; text-indent:-5000px; overflow:hidden; background:url(imagens/bt-busca.gif) no-repeat top left; width:27px; height:27px; cursor:pointer; position:relative; top:3px; left:4px; }
+#Assine { font-size:12px; text-align:right; color:#999; }
+#Assine a { color:#F90; text-decoration:none; }
+
+#Creditos { width:800px; margin:10px auto; }
+#Creditos p { text-align:right; font-size:12px; color:#999; }
+#Creditos p a { color:#F90; text-decoration:none; }
+
+#tituloPagina,
+.tituloPagina { margin:0 0 10px 10px; }
+
+#PostsRelacionados #tituloPagina,
+#OlhaQuemEstaFalando .tituloPagina { text-align:center; margin-top:20px; }
+#PostsRelacionados .boxPost { width:254px; height:300px; margin:10px 9px; }
+#PostsRelacionados .boxPost img { width:254px; height:153px; }
+#PostsRelacionados .tituloBoxPost h2 { width:230px; }
+
+#Comentarios { width:820px; clear:both; float:left; margin:10px 0; }
+
+#CxFormComentario { width:800px; margin:0 auto; background-color:#FFF; padding-bottom:20px; }
+#CxFormComentario .tituloPagina { text-align:center; padding:30px 0 15px 0; }
+#CxFormComentario .aviso { width:670px; font:12px Arial, Helvetica, sans-serif; border:solid #F4F4F4; border-width:1px 0; color:#999; padding:20px 0; margin:0 auto; line-height:24px; }
+#Comente { width:670px; clear:both; margin:20px auto; }
+#Comente p { text-align:right; margin:10px 0; }
+#Comente p input { width:515px; height:30px; padding:5px; margin-left:20px; border:1px solid #CCC;  }
+#MensagemComentario { float:right; width:515px; height:100px; padding:5px; margin-left:20px; border:1px solid #CCC; }
+#BtComentar { background-color:#F4F4F4; width:250px !important; cursor:pointer; margin-top:20px; border:none !important; }
+
+#ComentarioFacebook { width:800px; background-color:#FFF; margin:20px 10px; text-align:center; padding:30px 0; }
+
+#OlhaQuemEstaFalando  { margin-bottom:20px; clear:both; }
+
+.cxComentario { width:800px; clear:both; margin:0 auto; }
+.boxComentario { background-color:#FFF; clear:both; margin:20px 0; padding-bottom:20px; }
+.infoComentarista { width:670px; margin:0 auto; padding:20px 0; display:block; }
+.infoComentarista img { float:left; margin-right:15px; }
+.infoComentarista h4 { margin-bottom:5px; }
+.msgComentarista { width:670px; margin:10px auto; line-height:22px; }
+.replyComentario { width:630px; padding:5px 20px; margin:15px 0 15px 65px; background-color:#FFFAE5; }
+.replyComentario .infoComentarista { width:630px; }
+.replyComentario .msgComentarista { width:630px; margin:10px auto; line-height:22px; }
